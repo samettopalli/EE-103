@@ -1,4 +1,8 @@
-pi = 355 / 113
-radius = 2.2
-area = pi * (radius ** 2)
-print(area)
+import math
+# Kenar uzunluğu a = 5
+a = 5
+
+# Eşkenar üçgen alan formülü: (sqrt(3) / 4) * a^2
+area = (math.sqrt(3) / 4) * (a ** 2)
+
+print("Eşkenar üçgenin alanı:", area)
