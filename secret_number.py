@@ -1,1 +1,0 @@
-secretNum = 5
